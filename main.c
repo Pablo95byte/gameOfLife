@@ -14,3 +14,15 @@ una cellula morta diventa viva se ha esattamente tre celle vicine vive
 una cellula morta resta morta se ha meno di tre o più di tre celle vicine vive
 
 */ 
+#include <stdio.h>
+
+#define COLS 25
+#define ROWS 25
+#define ALIVE '*'
+#define DEAD '.'
+
+int main(void){
+    char grid[COLS*ROWS];
+    setgrid();
+    getgrid();
+}
